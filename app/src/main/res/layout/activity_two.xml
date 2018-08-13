@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/gradient"
+    tools:context=".ActivityTwo">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="400dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:text="הזמנה: הנך מוזמן/ת לקחת חלק במחקר הנערך, במסגרת הפקולטה למדעים במכון הטכנולוגי חולון.
+מטרתו: הערכת רגשות.
+ההסכמה להשתתפות במחקר זה הינה חופשית. הנך יכול/ה לבחור להשתתף במחקר זה או לא להשתתף. אם הנך בוחר/ת להשתתף במחקר זה הנך יכול/ה להפסיק את השתתפותך בכל עת, אם תחוש אי נוחות,כל זאת מבלי לפגוע בזכותך לקבל את השירותים המקובלים במוסד ובזכויותיך כסטודנט/ית (ככל שהנך סטודנט/ית).
+הליך ותקופת השתתפות: אם תחליט/י לקחת חלק במחקר זה תתבקש/י לצפות בסרטונים קצרים ובתום  כל סרטון למלא שאלון קצר. ההשתתפות בניסוי תארך כ-20 דקות. תשובותיך לשאלונים ישמרו ללא פרטיך המזהים ולא יעשה בהן שימוש שלא לצרכי המחקר.
+אם תחליט להפסיק השתתפותך במהלך הצילום, המצאות הסרטונים במאגר או הסרתם מהמאגר וכן השימוש או אי השימוש בצילומיך  לאנליזות שמטרתן הערכת רגשות יהיו נתונים להחלטתך בלבד.
+הנך רשאי/ית שלא לענות על כל השאלות שבשאלון או על חלק מהן.
+המקום בו יתבצעו הפעולות הנדרשות ממך במסגרת המחקר הוא המקום שתבחר בו.
+סיכונים הכרוכים בהשתתפות במחקר: לא צפויים סיכונים במהלך המטלות.
+במסגרת השתתפותך תצלם/מי את עצמך כאשר את/ה צופה בסרטונים קצרים.לאחר כל סרטון תמלא שאלון קצר. משך השתתפותך כ 20 דקות.
+הגנה על המשתתפים: סודיות הנתונים תישמר בכל עת, בכפוף להגבלות משפטיות. תזוהה/הי על-ידי מספרים ולא שמות. לשום אדם מלבד החוקרים לא תהיה גישה לתוצאות. כל מידע מחקרי שיפורסם יתייחס אך ורק לממצאים הקשורים לקבוצה בלבד.
+אינך צפוי/יה לקבל תמורה בעד השתתפותך.
+תועלת מהשתתפות במחקר: להשתתפות במחקר זה ישנה תועלת קצרת טווח בהבנת יכולתך האישית לשקר בהצלחה ולזהות שקר אצל אחרים.
+אי לכך, משתתפים אחרים במחקר וסגל המכון המעורב בעריכתו (בלבד!) יוכלו לצפות בצילומיך, ואתה תוכל לצפות בצילומיהם של משתתפים אחרים.
+בהתבסס על כך, תקבל:
+1.	 אומדן ליכולתך לשקר בהצלחה ולזהות שקר אצל אחרים,
+2.	אומדן לגבי יכולותיך לשקר בהצלחה ביחס ליכולות המשתתפים האחרים לשקר בהצלחה,
+3.	אומדן לגבי יכולותיך לזהות שקר ביחס ליכולות המשתתפים האחרים לזהות שקר.
+האומדנים כאמור הינם בגדר הערכה בלבד, והעברתם למשתתפים תינתן במסגרת המחקר ולא תהווה התחייבות או אחריות לאיכות האומדן ו/או לנכונותו.
+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/darker_gray"
+
+        />
+</ScrollView>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+
+android:textColor="@android:color/darker_gray"
+        android:text="I read and agree with terms of use"
+        android:textAlignment="center" />
+
+</LinearLayout>
