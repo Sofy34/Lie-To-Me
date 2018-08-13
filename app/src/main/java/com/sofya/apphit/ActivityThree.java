@@ -12,8 +12,9 @@ Button btnVideo;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_three);
+        btnCam = (Button) findViewById(R.id.BtnCamCheck);
+        btnVideo = (Button) findViewById(R.id.BtnStartVideo);
 
-    }
 
 
 }
