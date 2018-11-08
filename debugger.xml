@@ -77,10 +77,10 @@
     </filter>
   </component>
   <component name="XDebuggerSettings">
-    <data-views>
-      <option name="showLibraryStackFrames" value="false" />
-    </data-views>
-    <general />
+    <data-views />
+    <general>
+      <unmute-on-stop>true</unmute-on-stop>
+    </general>
     <debuggers>
       <debugger id="ObjectiveC">
         <configuration>
